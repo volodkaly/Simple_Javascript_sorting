@@ -1,23 +1,7 @@
 <body style="font-family: Arial, sans-serif; line-height:1.6; margin: 20px;">
 
   <h1>📌 JavaScript Natural Sorting Example</h1>
- <a href="https://volodkaly.github.io/Simple_Javascript_sorting/" 
-   target="_blank"
-   style="
-      display:inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #fff;
-      background-color: #198754;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      text-align: center;
-      transition: background-color 0.2s;
-   "
-   onmouseover="this.style.backgroundColor='#157347'" 
-   onmouseout="this.style.backgroundColor='#198754'">
+ <a href="https://volodkaly.github.io/Simple_Javascript_sorting/">
    <button>CLICK HERE TO TEST</button>
  </a>
 
