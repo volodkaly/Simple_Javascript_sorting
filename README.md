@@ -1,7 +1,9 @@
 <body style="font-family: Arial, sans-serif; line-height:1.6; margin: 20px;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <h1>📌 JavaScript Natural Sorting Example</h1>
-  <a href='https://volodkaly.github.io/Simple_Javascript_sorting/'><button>CLICK HERE TO TEST</button></a>
+  <a href='https://volodkaly.github.io/Simple_Javascript_sorting/'   class="btn btn-success btn-lg" 
+     target="_blank"><button>CLICK HERE TO TEST</button></a>
 
   <h2>🚀 Problem</h2>
   <p>
