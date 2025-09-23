@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+    const form = document.getElementById('numberForm');
+    const input = document.getElementById('in');
+    const result = document.getElementById('result');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); 
+
+      const numbers = input.value
+        .split(',')
+        .map(num => num.trim());
+
+       numbers.sort((a,b)=>a.localeCompare(b,undefined,{numeric:true,sensitivity:'base'}));
+       result.innerHTML = numbers.join(', ');
+    });
+
+});
+
+    </script>
+    <title>Javascript sorting</title>
+</head>
+<body>
+<h1>Enter items to compare separated by commas:</h1>
+  <form id="numberForm">
+    <input type="text" id="in" name="numbers" value= 'Version 100, version 1, Version 9.999, version 3.4' style='width: 50%'>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="result"></div>
+</div>
+</body>
+</html>
