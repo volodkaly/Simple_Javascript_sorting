@@ -8,8 +8,7 @@
 <body style="font-family: Arial, sans-serif; line-height:1.6; margin: 20px;">
 
   <h1>📌 JavaScript Natural Sorting Example</h1>
-  <p><em>A simple demo showing how to correctly sort strings with numbers (like software versions) in JavaScript.</em></p>
-  <hr>
+
 
   <h2>🚀 Problem</h2>
   <p>
@@ -35,7 +34,7 @@ numbers.sort((a, b) =>
     <li>Click <strong>Submit</strong> to see the sorted result.</li>
   </ol>
 
-  <hr>
+ 
   <p style="font-size:0.9em; color:gray;">Made with ❤️ using vanilla JavaScript</p>
 
 </body>
