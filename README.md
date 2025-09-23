@@ -1,7 +1,7 @@
 <body style="font-family: Arial, sans-serif; line-height:1.6; margin: 20px;">
 
   <h1>📌 JavaScript Natural Sorting Example</h1>
-  <button href='https://volodkaly.github.io/Simple_Javascript_sorting/'>CLICK HERE TO TEST</button>
+  <a href='https://volodkaly.github.io/Simple_Javascript_sorting/'><button>CLICK HERE TO TEST</button></a>
 
   <h2>🚀 Problem</h2>
   <p>
